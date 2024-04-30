@@ -1,0 +1,55 @@
+/* styles.css */
+
+body {
+    background-color: #aabcca; /* Arka plan rengi */
+    font-family: Arial, sans-serif; /* Yazı tipi */
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+.first-row {
+    font-size: 12px; /* Büyük yazı boyutu */
+    font-style: italic; /* İtalik yazı stili */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Farklı bir yazı tipi */
+    color: #b22020; /* Mavi renk */
+}
+
+#canvas {
+    border: 2px solid #c84949; /* Canvas kenar çizgisi */
+}
+
+.info {
+    margin-bottom: 10px; /* Bilgi kutusu aralığı */
+    font-weight: bold; /* Kalın yazı tipi */
+    color: #2981c6; /* Yeşil renk */
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #d7eae0; /* Buton arka plan rengi */
+    color: #2981c6; /* Buton metin rengi */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Buton köşe yuvarlama */
+}
+
+button:hover {
+    background-color: #a7e2ba; /* Buton üzerine gelindiğinde farklı bir renk */
+}
+
+.Baslik {
+
+    font-size: 22px; /* Büyük yazı boyutu */
+    font-style: italic; /* İtalik yazı stili */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Farklı bir yazı tipi */
+    color: #b22020; /* Mavi renk */
+}

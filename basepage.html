@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mert Friendly Fire</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <table border="2" align="center" width="100%" height="100%">
+        <tbody>
+            <tr>
+                <td colspan="3" align="center" class="first-row">
+                  <font color="blue" size="32px">Mert Friendly Fire</font>
+                  <br>
+                  Oyunun  refleks gerektiren oyunlar için bir alıştırmadır.
+                  Oyunda belirli süre içeresinde çıkan resimlere ne kadar çok tıklarsanız
+                  o kadar çok paun toplayacaksınız. Farklı bir noktaya tıklarsanız puanınınz düşecektir.
+                  <font  size="4px">Fotograflar gerçek arkadaşlarımdır izinleri alınmıştır.</font>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <canvas id="canvas" width="500" height="300" style="border: 1px solid;"></canvas>
+                </td>
+                <td>
+                    
+                    <div id="tıklanmaSayacı" class="info">Toplam tıklanma sayısı: 0</div>
+                    <div id="geriSayim" style="display: none;">Kalan Süre: <span id="süre">30</span> saniye</div>
+                    <button id="baslatBtn">Başlat</button>
+                    <button id="yenidenBaslat" style="display: none;">Yeniden Başlat</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                  
+                  <table border="1" width="950" height="100">
+                    <thead>
+                      <tr>
+                        <td> <img src="nermin.jpg" width="100px" height="100px"><br>Nermin Baycan</td>
+                        <td><img src="hasan.jpg" width="100px" height="100px"><br>Hasan Gürfidan</td>
+                        <td><img src="semih.jpg" width="100px" height="100px"><br>İbrahim Semih Temiz</td>
+                        <td><img src="rabia.jpg" width="100px" height="100px"><br>Rabia Kamış</td>
+                        <td><img src="mete.jpg" width="100px" height="100px"><br>Metehan Yıldız</td>
+                      </tr>
+                    </thead>
+                    </table>
+
+                  
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="main.js"></script>
+</body>
+
+</html>
+
